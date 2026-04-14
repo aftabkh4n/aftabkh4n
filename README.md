@@ -81,12 +81,15 @@ monitoring stack. I publish everything as open source.
 ## GitHub stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aftabkh4n&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftabkh4n&layout=compact&theme=tokyonight&hide_border=true" height="165" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aftabkh4n&theme=tokyonight" width="100%" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aftabkh4n&theme=tokyonight&hide_border=true" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=aftabkh4n&theme=tokyonight" height="165" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=aftabkh4n&theme=tokyonight" height="165" />
+</div>
+
+<div align="center">
   <img src="https://streak-stats.demolab.com/?user=aftabkh4n&theme=tokyonight&hide_border=true" />
 </div>
 
