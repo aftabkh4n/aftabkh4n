@@ -98,6 +98,11 @@ monitoring stack. I publish everything as open source.
 ## Latest Dev.to articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Built an MCP server in .NET that lets Claude manage my Kubernetes cluster through natural language](https://dev.to/aftabkh4n/i-built-an-mcp-server-in-net-that-lets-claude-manage-my-kubernetes-cluster-through-natural-language-3cji)
+- [From zero to full infrastructure as code - Terraform, Kubernetes, Prometheus and Grafana with a single command](https://dev.to/aftabkh4n/from-zero-to-full-infrastructure-as-code-terraform-kubernetes-prometheus-and-grafana-with-a-3im2)
+- [I upgraded a .NET library into a microservices platform - RabbitMQ, OpenTelemetry, and Azure AI](https://dev.to/aftabkh4n/i-upgraded-a-net-library-into-a-microservices-platform-rabbitmq-opentelemetry-and-azure-ai-2896)
+- [I built a Travel Data Platform API in .NET - search, analytics, and recommendations with Redis caching](https://dev.to/aftabkh4n/i-built-a-travel-data-platform-api-in-net-search-analytics-and-recommendations-with-redis-1f5l)
+- [I built a Mini Internal Developer Platform in .NET -GitHub repos + Kubernetes deployments from a single API call](https://dev.to/aftabkh4n/i-built-a-mini-internal-developer-platform-in-net-github-repos-kubernetes-deployments-from-a-4l0d)
 <!-- BLOG-POST-LIST:END -->
 
 <div align="center">
