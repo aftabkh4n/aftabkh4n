@@ -1,16 +1,101 @@
-## Hi there 👋
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c3e50,100:3498db&height=200&section=header&text=Aftab%20Bashir&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Senior%20.NET%20Engineer%20%7C%20Kubernetes%20%7C%20Azure%20%7C%20DevOps&descAlignY=55&descSize=18" />
+</div>
 
-<!--
-**aftabkh4n/aftabkh4n** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
+  <a href="https://linkedin.com/in/aftabkh4n">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://dev.to/aftabkh4n">
+    <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" />
+  </a>
+  <a href="https://www.nuget.org/profiles/aftabkh4n">
+    <img src="https://img.shields.io/badge/NuGet-004880?style=for-the-badge&logo=nuget&logoColor=white" />
+  </a>
+</div>
 
-Here are some ideas to get you started:
+<br/>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## About me
+
+Senior .NET Engineer with 9 years building cloud-native enterprise
+applications, developer platforms, and microservices systems. Currently
+at Qatar Armed Forces building mission-critical ASP.NET Core applications
+for 500+ users.
+
+I build things end to end — from the application code down to the
+Kubernetes deployments, CI/CD pipelines, Terraform infrastructure, and
+monitoring stack. I publish everything as open source.
+
+- Working on MCP servers, GenAI DevOps pipelines, and AWS EKS deployments
+- Published NuGet packages used across teams
+- Writing about .NET, Kubernetes, and DevOps on Dev.to
+- Open to senior backend and platform engineering roles globally
+
+---
+
+## Tech stack
+
+**Languages and frameworks**
+
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white)
+
+**Cloud and DevOps**
+
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+
+**Messaging and observability**
+
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+
+**Databases**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+---
+
+## Projects
+
+| Project | What it does | Stack |
+|---|---|---|
+| [IDP Platform](https://github.com/aftabkh4n/idp-platform) | Self-service platform that auto-provisions GitHub repos, Dockerfiles, and Kubernetes deployments from a single API call | .NET 9, K8s, SignalR, PostgreSQL |
+| [Data Platform API](https://github.com/aftabkh4n/data-platform) | Travel data API with search, analytics, and recommendations. Redis caching brings queries from 500ms to under 100ms | .NET 9, PostgreSQL, Redis |
+| [TravelAI.Core](https://github.com/aftabkh4n/TravelAI.Core) | Microservices platform with async RabbitMQ messaging — API returns in under 100ms while workers handle AI calls independently | .NET 10, RabbitMQ, OpenTelemetry |
+| [Terraform IDP](https://github.com/aftabkh4n/terraform-idp) | Complete local infrastructure as code — PostgreSQL, Kubernetes, Prometheus, and Grafana with a single command | Terraform, Helm, Prometheus |
+| [MCP Kubernetes Manager](https://github.com/aftabkh4n/mcp-kubernetes-manager) | MCP server that lets AI assistants manage Kubernetes clusters through natural language | .NET 9, MCP, KubernetesClient |
+
+---
+
+## GitHub stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aftabkh4n&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftabkh4n&layout=compact&theme=tokyonight&hide_border=true" height="165" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aftabkh4n&theme=tokyonight&hide_border=true" />
+</div>
+
+---
+
+## Latest Dev.to articles
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3498db,100:2c3e50&height=120&section=footer" />
+</div>
