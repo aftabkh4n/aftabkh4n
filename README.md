@@ -69,12 +69,13 @@ monitoring stack. I publish everything as open source.
 ## Projects
 
 | Project | What it does | Stack |
-|---|---|---|
+| --- | --- | --- |
+| [MCP Kubernetes Manager](https://github.com/aftabkh4n/mcp-kubernetes-manager) | MCP server that lets AI assistants manage Kubernetes clusters through natural language — list pods, scale deployments, restart services, and more | .NET 9, MCP, KubernetesClient, Serilog |
 | [IDP Platform](https://github.com/aftabkh4n/idp-platform) | Self-service platform that auto-provisions GitHub repos, Dockerfiles, and Kubernetes deployments from a single API call | .NET 9, K8s, SignalR, PostgreSQL |
 | [Data Platform API](https://github.com/aftabkh4n/data-platform) | Travel data API with search, analytics, and recommendations. Redis caching brings queries from 500ms to under 100ms | .NET 9, PostgreSQL, Redis |
 | [TravelAI.Core](https://github.com/aftabkh4n/TravelAI.Core) | Microservices platform with async RabbitMQ messaging — API returns in under 100ms while workers handle AI calls independently | .NET 10, RabbitMQ, OpenTelemetry |
 | [Terraform IDP](https://github.com/aftabkh4n/terraform-idp) | Complete local infrastructure as code — PostgreSQL, Kubernetes, Prometheus, and Grafana with a single command | Terraform, Helm, Prometheus |
-| [MCP Kubernetes Manager](https://github.com/aftabkh4n/mcp-kubernetes-manager) | MCP server that lets AI assistants manage Kubernetes clusters through natural language | .NET 9, MCP, KubernetesClient |
+| [BlazorMemory](https://github.com/aftabkh4n/BlazorMemory) | AI memory layer for .NET that runs in Blazor WASM with no backend required | .NET, Blazor WASM, Vector Search |
 
 ---
 
