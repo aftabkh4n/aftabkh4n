@@ -19,9 +19,9 @@
 ## About me
 
 Senior .NET Engineer with 9 years building cloud-native enterprise
-applications, developer platforms, and microservices systems. Currently
-at Qatar Armed Forces building mission-critical ASP.NET Core applications
-for 500+ users.
+applications, developer platforms, and microservices systems. Currently 
+at Qatar Armed Forces building production ASP.NET Core applications for 
+500+ users.
 
 I build things end to end — from the application code down to the
 Kubernetes deployments, CI/CD pipelines, Terraform infrastructure, and
