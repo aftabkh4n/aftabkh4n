@@ -18,19 +18,9 @@
 
 ## About me
 
-Senior .NET Engineer with 9 years building cloud-native enterprise
-applications, developer platforms, and microservices systems. Currently 
-at Qatar Armed Forces building production ASP.NET Core applications for 
-500+ users.
+Senior .NET Engineer, 9 years in. I build systems from the API down to the infrastructure: Kubernetes, Terraform, CI/CD pipelines, monitoring. Everything I build goes on GitHub.
 
-I build things end to end — from the application code down to the
-Kubernetes deployments, CI/CD pipelines, Terraform infrastructure, and
-monitoring stack. I publish everything as open source.
-
-- Working on MCP servers, GenAI DevOps pipelines, and AWS EKS deployments
-- Published NuGet packages used across teams
-- Writing about .NET, Kubernetes, and DevOps on Dev.to
-- Open to senior backend and platform engineering roles globally
+Currently working on MCP servers and GenAI DevOps pipelines. I have NuGet packages in production and write about .NET, Kubernetes, and DevOps on Dev.to. Looking for senior backend or platform engineering roles, ideally in the UK.
 
 ---
 
@@ -70,12 +60,12 @@ monitoring stack. I publish everything as open source.
 
 | Project | What it does | Stack |
 | --- | --- | --- |
-| [GenAI DevOps Platform](https://github.com/aftabkh4n/genai-devops-platform) | Self-healing Kubernetes system — detects pod failures, analyses logs with Claude AI, and opens GitHub PRs with fixes automatically | .NET 10, Kubernetes, Claude AI |
-| [MCP Kubernetes Manager](https://github.com/aftabkh4n/mcp-kubernetes-manager) | MCP server that lets AI assistants manage Kubernetes clusters through natural language — list pods, scale deployments, restart services, and more | .NET 9, MCP, KubernetesClient, Serilog |
+| [GenAI DevOps Platform](https://github.com/aftabkh4n/genai-devops-platform) | Self-healing Kubernetes system that detects pod failures, analyses logs with Claude AI, and opens GitHub PRs with fixes automatically | .NET 10, Kubernetes, Claude AI |
+| [MCP Kubernetes Manager](https://github.com/aftabkh4n/mcp-kubernetes-manager) | MCP server that lets AI assistants manage Kubernetes clusters through natural language. List pods, scale deployments, restart services, and more | .NET 9, MCP, KubernetesClient, Serilog |
 | [IDP Platform](https://github.com/aftabkh4n/idp-platform) | Self-service platform that auto-provisions GitHub repos, Dockerfiles, and Kubernetes deployments from a single API call | .NET 9, K8s, SignalR, PostgreSQL |
 | [Data Platform API](https://github.com/aftabkh4n/data-platform) | Travel data API with search, analytics, and recommendations. Redis caching brings queries from 500ms to under 100ms | .NET 9, PostgreSQL, Redis |
-| [TravelAI.Core](https://github.com/aftabkh4n/TravelAI.Core) | Microservices platform with async RabbitMQ messaging — API returns in under 100ms while workers handle AI calls independently | .NET 10, RabbitMQ, OpenTelemetry |
-| [Terraform IDP](https://github.com/aftabkh4n/terraform-idp) | Complete local infrastructure as code — PostgreSQL, Kubernetes, Prometheus, and Grafana with a single command | Terraform, Helm, Prometheus |
+| [TravelAI.Core](https://github.com/aftabkh4n/TravelAI.Core) | Microservices platform with async RabbitMQ messaging. API returns in under 100ms while workers handle AI calls independently | .NET 10, RabbitMQ, OpenTelemetry |
+| [Terraform IDP](https://github.com/aftabkh4n/terraform-idp) | Complete local infrastructure as code. PostgreSQL, Kubernetes, Prometheus, and Grafana with a single command | Terraform, Helm, Prometheus |
 | [BlazorMemory](https://github.com/aftabkh4n/BlazorMemory) | AI memory layer for .NET that runs in Blazor WASM with no backend required | .NET, Blazor WASM, Vector Search |
 
 ---
@@ -100,7 +90,7 @@ monitoring stack. I publish everything as open source.
 ## Latest Dev.to articles
 
 <!-- BLOG-POST-LIST:START -->
-- [Why AI assistants forget everything , and how I fixed it in .NET](https://dev.to/aftabkh4n/why-ai-assistants-forget-everything-and-how-i-fixed-it-in-net-28ep)
+- [Why AI assistants forget everything, and how I fixed it in .NET](https://dev.to/aftabkh4n/why-ai-assistants-forget-everything-and-how-i-fixed-it-in-net-28ep)
 - [I added AI-generated release notes to my CI/CD pipeline using Claude and GitHub Actions](https://dev.to/aftabkh4n/i-added-ai-generated-release-notes-to-my-cicd-pipeline-using-claude-and-github-actions-3940)
 - [I added AI code review and failure analysis to my CI/CD pipeline using GitHub Actions and GPT-4o-mini](https://dev.to/aftabkh4n/i-added-ai-code-review-and-failure-analysis-to-my-cicd-pipeline-using-github-actions-and-85j)
 - [Built an MCP server in .NET that lets Claude manage my Kubernetes cluster through natural language](https://dev.to/aftabkh4n/i-built-an-mcp-server-in-net-that-lets-claude-manage-my-kubernetes-cluster-through-natural-language-3cji)
