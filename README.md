@@ -70,6 +70,7 @@ monitoring stack. I publish everything as open source.
 
 | Project | What it does | Stack |
 | --- | --- | --- |
+| [GenAI DevOps Platform](https://github.com/aftabkh4n/genai-devops-platform) | Self-healing Kubernetes system — detects pod failures, analyses logs with Claude AI, and opens GitHub PRs with fixes automatically | .NET 10, Kubernetes, Claude AI |
 | [MCP Kubernetes Manager](https://github.com/aftabkh4n/mcp-kubernetes-manager) | MCP server that lets AI assistants manage Kubernetes clusters through natural language — list pods, scale deployments, restart services, and more | .NET 9, MCP, KubernetesClient, Serilog |
 | [IDP Platform](https://github.com/aftabkh4n/idp-platform) | Self-service platform that auto-provisions GitHub repos, Dockerfiles, and Kubernetes deployments from a single API call | .NET 9, K8s, SignalR, PostgreSQL |
 | [Data Platform API](https://github.com/aftabkh4n/data-platform) | Travel data API with search, analytics, and recommendations. Redis caching brings queries from 500ms to under 100ms | .NET 9, PostgreSQL, Redis |
