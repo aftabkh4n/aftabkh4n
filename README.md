@@ -90,11 +90,11 @@ Currently working on MCP servers and GenAI DevOps pipelines. I have NuGet packag
 ## Latest Dev.to articles
 
 <!-- BLOG-POST-LIST:START -->
-- [Why AI assistants forget everything, and how I fixed it in .NET](https://dev.to/aftabkh4n/why-ai-assistants-forget-everything-and-how-i-fixed-it-in-net-28ep)
+- [Down for the challenge](https://dev.to/aftabkh4n/down-for-the-challenge-5hai)
+- [I built a self-healing Kubernetes system in .NET that fixes its own failures using Claude AI](https://dev.to/aftabkh4n/i-built-a-self-healing-kubernetes-system-in-net-that-fixes-its-own-failures-using-claude-ai-1pj0)
+- [Why AI assistants forget everything , and how I fixed it in .NET](https://dev.to/aftabkh4n/why-ai-assistants-forget-everything-and-how-i-fixed-it-in-net-28ep)
 - [I added AI-generated release notes to my CI/CD pipeline using Claude and GitHub Actions](https://dev.to/aftabkh4n/i-added-ai-generated-release-notes-to-my-cicd-pipeline-using-claude-and-github-actions-3940)
 - [I added AI code review and failure analysis to my CI/CD pipeline using GitHub Actions and GPT-4o-mini](https://dev.to/aftabkh4n/i-added-ai-code-review-and-failure-analysis-to-my-cicd-pipeline-using-github-actions-and-85j)
-- [Built an MCP server in .NET that lets Claude manage my Kubernetes cluster through natural language](https://dev.to/aftabkh4n/i-built-an-mcp-server-in-net-that-lets-claude-manage-my-kubernetes-cluster-through-natural-language-3cji)
-- [From zero to full infrastructure as code - Terraform, Kubernetes, Prometheus and Grafana with a single command](https://dev.to/aftabkh4n/from-zero-to-full-infrastructure-as-code-terraform-kubernetes-prometheus-and-grafana-with-a-3im2)
 <!-- BLOG-POST-LIST:END -->
 
 <div align="center">
