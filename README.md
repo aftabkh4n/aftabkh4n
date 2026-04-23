@@ -91,11 +91,11 @@ Currently working on MCP servers and GenAI DevOps pipelines. I have NuGet packag
 ## Latest Dev.to articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Built an event-driven order pipeline in .NET with Kafka and Azure Service Bus](https://dev.to/aftabkh4n/built-an-event-driven-order-pipeline-in-net-with-kafka-and-azure-service-bus-3i61)
 - [Down for the challenge](https://dev.to/aftabkh4n/down-for-the-challenge-5hai)
 - [I built a self-healing Kubernetes system in .NET that fixes its own failures using Claude AI](https://dev.to/aftabkh4n/i-built-a-self-healing-kubernetes-system-in-net-that-fixes-its-own-failures-using-claude-ai-1pj0)
 - [Why AI assistants forget everything , and how I fixed it in .NET](https://dev.to/aftabkh4n/why-ai-assistants-forget-everything-and-how-i-fixed-it-in-net-28ep)
 - [I added AI-generated release notes to my CI/CD pipeline using Claude and GitHub Actions](https://dev.to/aftabkh4n/i-added-ai-generated-release-notes-to-my-cicd-pipeline-using-claude-and-github-actions-3940)
-- [I added AI code review and failure analysis to my CI/CD pipeline using GitHub Actions and GPT-4o-mini](https://dev.to/aftabkh4n/i-added-ai-code-review-and-failure-analysis-to-my-cicd-pipeline-using-github-actions-and-85j)
 <!-- BLOG-POST-LIST:END -->
 
 <div align="center">
