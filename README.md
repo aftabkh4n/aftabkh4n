@@ -60,6 +60,7 @@ Currently working on MCP servers and GenAI DevOps pipelines. I have NuGet packag
 
 | Project | What it does | Stack |
 | --- | --- | --- |
+| [Travel Booking Platform](https://github.com/aftabkh4n/travel-booking-platform) | API gateway pattern with YARP, MongoDB-backed .NET API, and Angular dashboard. All requests go through the gateway for auth and rate limiting | .NET 10, YARP, MongoDB, Angular, TypeScript |
 | [GenAI DevOps Platform](https://github.com/aftabkh4n/genai-devops-platform) | Self-healing Kubernetes system that detects pod failures, analyses logs with Claude AI, and opens GitHub PRs with fixes automatically | .NET 10, Kubernetes, Claude AI |
 | [MCP Kubernetes Manager](https://github.com/aftabkh4n/mcp-kubernetes-manager) | MCP server that lets AI assistants manage Kubernetes clusters through natural language. List pods, scale deployments, restart services, and more | .NET 9, MCP, KubernetesClient, Serilog |
 | [IDP Platform](https://github.com/aftabkh4n/idp-platform) | Self-service platform that auto-provisions GitHub repos, Dockerfiles, and Kubernetes deployments from a single API call | .NET 9, K8s, SignalR, PostgreSQL |
