@@ -92,11 +92,11 @@ Currently working on MCP servers and GenAI DevOps pipelines. I have NuGet packag
 ## Latest Dev.to articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Google just launched ADK for AI agents. I built something similar in .NET months ago using MCP. Here is what I learned.](https://dev.to/aftabkh4n/google-just-launched-adk-for-ai-agents-i-built-something-similar-in-net-months-ago-using-mcp-20ik)
 - [Built a travel booking platform in .NET with an API gateway, MongoDB, and Angular](https://dev.to/aftabkh4n/built-a-travel-booking-platform-in-net-with-an-api-gateway-mongodb-and-angular-oo6)
 - [Built an event-driven order pipeline in .NET with Kafka and Azure Service Bus](https://dev.to/aftabkh4n/built-an-event-driven-order-pipeline-in-net-with-kafka-and-azure-service-bus-3i61)
 - [Down for the challenge](https://dev.to/aftabkh4n/down-for-the-challenge-5hai)
 - [I built a self-healing Kubernetes system in .NET that fixes its own failures using Claude AI](https://dev.to/aftabkh4n/i-built-a-self-healing-kubernetes-system-in-net-that-fixes-its-own-failures-using-claude-ai-1pj0)
-- [Why AI assistants forget everything , and how I fixed it in .NET](https://dev.to/aftabkh4n/why-ai-assistants-forget-everything-and-how-i-fixed-it-in-net-28ep)
 <!-- BLOG-POST-LIST:END -->
 
 <div align="center">
