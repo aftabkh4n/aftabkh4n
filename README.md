@@ -92,11 +92,11 @@ Currently working on MCP servers and GenAI DevOps pipelines. I have NuGet packag
 ## Latest Dev.to articles
 
 <!-- BLOG-POST-LIST:START -->
+- [I made my .NET travel AI library work with OpenAI, Anthropic, Ollama, and Azure. Not just one.](https://dev.to/aftabkh4n/i-made-my-net-travel-ai-library-work-with-openai-anthropic-ollama-and-azure-not-just-one-14on)
 - [A senior engineer spotted a bug in my pipeline. I fixed it the same day. Here is what I learned.](https://dev.to/aftabkh4n/a-senior-engineer-spotted-a-bug-in-my-pipeline-i-fixed-it-the-same-day-here-is-what-i-learned-1nan)
 - [We&#39;ve been building AI-style modular systems for years, we just called them plugins](https://dev.to/aftabkh4n/weve-been-building-ai-style-modular-systems-for-years-we-just-called-them-plugins-kjk)
 - [How I added memory export and import to my open-source AI library](https://dev.to/aftabkh4n/how-i-added-memory-export-and-import-to-my-open-source-ai-librarypublished-true-1epa)
 - [Google just launched ADK for AI agents. I built something similar in .NET months ago using MCP. Here is what I learned.](https://dev.to/aftabkh4n/google-just-launched-adk-for-ai-agents-i-built-something-similar-in-net-months-ago-using-mcp-20ik)
-- [Built a travel booking platform in .NET with an API gateway, MongoDB, and Angular](https://dev.to/aftabkh4n/built-a-travel-booking-platform-in-net-with-an-api-gateway-mongodb-and-angular-oo6)
 <!-- BLOG-POST-LIST:END -->
 
 <div align="center">
