@@ -92,11 +92,11 @@ Currently working on MCP servers and GenAI DevOps pipelines. I have NuGet packag
 ## Latest Dev.to articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Reducing boilerplate in AI memory with a chat wrapper for .NET](https://dev.to/aftabkh4n/reducing-boilerplate-in-ai-memory-with-a-chat-wrapper-for-net-59lc)
 - [I made my .NET travel AI library work with OpenAI, Anthropic, Ollama, and Azure. Not just one.](https://dev.to/aftabkh4n/i-made-my-net-travel-ai-library-work-with-openai-anthropic-ollama-and-azure-not-just-one-16d0)
 - [I added pgvector support to my .NET AI memory library](https://dev.to/aftabkh4n/i-added-pgvector-support-to-my-net-ai-memory-library-53i)
 - [Letting users teach an AI which memories matter](https://dev.to/aftabkh4n/letting-users-teach-an-ai-which-memories-matter-3an8)
 - [I kept improving my .NET order pipeline after a CTO left feedback. Here is where it ended up.](https://dev.to/aftabkh4n/i-kept-improving-my-net-order-pipeline-after-a-cto-left-feedback-here-is-where-it-ended-up-25ii)
-- [I added verbatim memory to my .NET AI library : here&#39;s why it outperforms extraction](https://dev.to/aftabkh4n/i-added-verbatim-memory-to-my-net-ai-library-heres-why-it-outperforms-extraction-48b1)
 <!-- BLOG-POST-LIST:END -->
 
 <div align="center">
