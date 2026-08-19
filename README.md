@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c3e50,100:3498db&height=200&section=header&text=Aftab%20Bashir&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Senior%20.NET%20Engineer%20%7C%20Kubernetes%20%7C%20Azure%20%7C%20DevOps&descAlignY=55&descSize=18" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c3e50,100:3498db&height=200&section=header&text=Aftab%20Bashir&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Senior%20.NET%20Engineer%20%7C%20Kubernetes%20%7C%20AWS%20%7C%20Azure%20%7C%20DevOps%20%7C%20MCP&descAlignY=55&descSize=18" />
 </div>
 
 <div align="center">
@@ -18,9 +18,9 @@
 
 ## About me
 
-Senior .NET Engineer, 9 years in. I build systems from the API down to the infrastructure: Kubernetes, Terraform, CI/CD pipelines, monitoring. Everything I build goes on GitHub.
+Senior .NET Engineer, 9 years in. I build systems from the API down to the infrastructure — Kubernetes, Terraform, CI/CD pipelines, MCP servers, and GenAI DevOps tooling. Everything I build goes on GitHub as open source.
 
-Currently working on MCP servers and GenAI DevOps pipelines. I have NuGet packages in production and write about .NET, Kubernetes, and DevOps on Dev.to. Looking for senior backend or platform engineering roles, ideally in the UK.
+Currently building MCP servers for AI-assisted platform engineering, GenAI-powered CI/CD pipelines, and event-driven systems with Kafka and Azure Service Bus. I have NuGet packages in production and write about .NET, Kubernetes, and DevOps on Dev.to. Open to senior backend and platform engineering roles globally.
 
 ---
 
@@ -32,9 +32,12 @@ Currently working on MCP servers and GenAI DevOps pipelines. I have NuGet packag
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 
 **Cloud and DevOps**
 
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
@@ -44,6 +47,7 @@ Currently working on MCP servers and GenAI DevOps pipelines. I have NuGet packag
 
 **Messaging and observability**
 
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
@@ -52,6 +56,7 @@ Currently working on MCP servers and GenAI DevOps pipelines. I have NuGet packag
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 ---
@@ -60,15 +65,15 @@ Currently working on MCP servers and GenAI DevOps pipelines. I have NuGet packag
 
 | Project | What it does | Stack |
 | --- | --- | --- |
-| [Travel Booking Platform](https://github.com/aftabkh4n/travel-booking-platform) | API gateway pattern with YARP, MongoDB-backed .NET API, and Angular dashboard. All requests go through the gateway for auth and rate limiting | .NET 10, YARP, MongoDB, Angular, TypeScript |
 | [GenAI DevOps Platform](https://github.com/aftabkh4n/genai-devops-platform) | Self-healing Kubernetes system that detects pod failures, analyses logs with Claude AI, and opens GitHub PRs with fixes automatically | .NET 10, Kubernetes, Claude AI |
-| [MCP Kubernetes Manager](https://github.com/aftabkh4n/mcp-kubernetes-manager) | MCP server that lets AI assistants manage Kubernetes clusters through natural language. List pods, scale deployments, restart services, and more | .NET 9, MCP, KubernetesClient, Serilog |
-| [IDP Platform](https://github.com/aftabkh4n/idp-platform) | Self-service platform that auto-provisions GitHub repos, Dockerfiles, and Kubernetes deployments from a single API call | .NET 9, K8s, SignalR, PostgreSQL |
+| [MCP Kubernetes Manager](https://github.com/aftabkh4n/mcp-kubernetes-manager) | MCP server that lets AI assistants manage Kubernetes clusters through natural language — list pods, scale deployments, fetch logs, and more | .NET 9, MCP, KubernetesClient, Serilog |
+| [IDP Platform](https://github.com/aftabkh4n/idp-platform) | Self-service platform that auto-provisions GitHub repos, Dockerfiles, and Kubernetes deployments from a single API call. AI code review runs automatically on every PR via GitHub Actions | .NET 9, K8s, SignalR, PostgreSQL, GitHub Actions |
+| [Order Pipeline](https://github.com/aftabkh4n/order-pipeline) | Event-driven order processing with Kafka and Azure Service Bus. Outbox pattern, FOR UPDATE SKIP LOCKED, exponential backoff, and dead letter path — all running locally with Docker | .NET 10, Kafka, Azure Service Bus, PostgreSQL |
+| [Terraform IDP](https://github.com/aftabkh4n/terraform-idp) | Complete infrastructure as code — provisions PostgreSQL, Kubernetes, Prometheus, Grafana locally and AWS EKS in eu-west-2 with a single terraform apply | Terraform, AWS EKS, Helm, Prometheus, Grafana |
+| [Travel Booking Platform](https://github.com/aftabkh4n/travel-booking-platform) | API gateway pattern with YARP, MongoDB-backed .NET API, and Angular dashboard. All requests go through the gateway for auth and rate limiting | .NET 10, YARP, MongoDB, Angular, TypeScript |
 | [Data Platform API](https://github.com/aftabkh4n/data-platform) | Travel data API with search, analytics, and recommendations. Redis caching brings queries from 500ms to under 100ms | .NET 9, PostgreSQL, Redis |
-| [Order Pipeline](https://github.com/aftabkh4n/order-pipeline) | Event-driven order processing with Kafka and Azure Service Bus. Orders flow from REST API to Kafka consumer to fulfilment, all running locally with Docker | .NET 10, Kafka, Azure Service Bus, PostgreSQL |
 | [TravelAI.Core](https://github.com/aftabkh4n/TravelAI.Core) | Microservices platform with async RabbitMQ messaging. API returns in under 100ms while workers handle AI calls independently | .NET 10, RabbitMQ, OpenTelemetry |
-| [Terraform IDP](https://github.com/aftabkh4n/terraform-idp) | Complete local infrastructure as code. PostgreSQL, Kubernetes, Prometheus, and Grafana with a single command | Terraform, Helm, Prometheus |
-| [BlazorMemory](https://github.com/aftabkh4n/BlazorMemory) | AI memory layer for .NET that runs in Blazor WASM with no backend required | .NET, Blazor WASM, Vector Search |
+| [BlazorMemory](https://github.com/aftabkh4n/BlazorMemory) | AI memory layer for .NET — LLM-powered fact extraction, vector similarity search, and persistent memory for Blazor and ASP.NET Core apps. 7 NuGet packages published | .NET, Blazor WASM, Vector Search, OpenAI |
 
 ---
 
