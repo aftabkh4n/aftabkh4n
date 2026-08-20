@@ -18,7 +18,7 @@
 
 ## About me
 
-Senior .NET Engineer, 9 years in. I build systems from the API down to the infrastructure — Kubernetes, Terraform, CI/CD pipelines, MCP servers, and GenAI DevOps tooling. Everything I build goes on GitHub as open source.
+Senior .NET Engineer, 9 years in. I build systems from the API down to the infrastructure - Kubernetes, Terraform, CI/CD pipelines, MCP servers, and GenAI DevOps tooling. Everything I build goes on GitHub as open source.
 
 Currently building MCP servers for AI-assisted platform engineering, GenAI-powered CI/CD pipelines, and event-driven systems with Kafka and Azure Service Bus. I have NuGet packages in production and write about .NET, Kubernetes, and DevOps on Dev.to. Open to senior backend and platform engineering roles globally.
 
@@ -66,14 +66,14 @@ Currently building MCP servers for AI-assisted platform engineering, GenAI-power
 | Project | What it does | Stack |
 | --- | --- | --- |
 | [GenAI DevOps Platform](https://github.com/aftabkh4n/genai-devops-platform) | Self-healing Kubernetes system that detects pod failures, analyses logs with Claude AI, and opens GitHub PRs with fixes automatically | .NET 10, Kubernetes, Claude AI |
-| [MCP Kubernetes Manager](https://github.com/aftabkh4n/mcp-kubernetes-manager) | MCP server that lets AI assistants manage Kubernetes clusters through natural language — list pods, scale deployments, fetch logs, and more | .NET 9, MCP, KubernetesClient, Serilog |
+| [MCP Kubernetes Manager](https://github.com/aftabkh4n/mcp-kubernetes-manager) | MCP server that lets AI assistants manage Kubernetes clusters through natural language - list pods, scale deployments, fetch logs, and more | .NET 9, MCP, KubernetesClient, Serilog |
 | [IDP Platform](https://github.com/aftabkh4n/idp-platform) | Self-service platform that auto-provisions GitHub repos, Dockerfiles, and Kubernetes deployments from a single API call. AI code review runs automatically on every PR via GitHub Actions | .NET 9, K8s, SignalR, PostgreSQL, GitHub Actions |
-| [Order Pipeline](https://github.com/aftabkh4n/order-pipeline) | Event-driven order processing with Kafka and Azure Service Bus. Outbox pattern, FOR UPDATE SKIP LOCKED, exponential backoff, and dead letter path — all running locally with Docker | .NET 10, Kafka, Azure Service Bus, PostgreSQL |
-| [Terraform IDP](https://github.com/aftabkh4n/terraform-idp) | Complete infrastructure as code — provisions PostgreSQL, Kubernetes, Prometheus, Grafana locally and AWS EKS in eu-west-2 with a single terraform apply | Terraform, AWS EKS, Helm, Prometheus, Grafana |
+| [Order Pipeline](https://github.com/aftabkh4n/order-pipeline) | Event-driven order processing with Kafka and Azure Service Bus. Outbox pattern, FOR UPDATE SKIP LOCKED, exponential backoff, and dead letter path - all running locally with Docker | .NET 10, Kafka, Azure Service Bus, PostgreSQL |
+| [Terraform IDP](https://github.com/aftabkh4n/terraform-idp) | Complete infrastructure as code - provisions PostgreSQL, Kubernetes, Prometheus, Grafana locally and AWS EKS in eu-west-2 with a single terraform apply | Terraform, AWS EKS, Helm, Prometheus, Grafana |
 | [Travel Booking Platform](https://github.com/aftabkh4n/travel-booking-platform) | API gateway pattern with YARP, MongoDB-backed .NET API, and Angular dashboard. All requests go through the gateway for auth and rate limiting | .NET 10, YARP, MongoDB, Angular, TypeScript |
 | [Data Platform API](https://github.com/aftabkh4n/data-platform) | Travel data API with search, analytics, and recommendations. Redis caching brings queries from 500ms to under 100ms | .NET 9, PostgreSQL, Redis |
 | [TravelAI.Core](https://github.com/aftabkh4n/TravelAI.Core) | Microservices platform with async RabbitMQ messaging. API returns in under 100ms while workers handle AI calls independently | .NET 10, RabbitMQ, OpenTelemetry |
-| [BlazorMemory](https://github.com/aftabkh4n/BlazorMemory) | AI memory layer for .NET — LLM-powered fact extraction, vector similarity search, and persistent memory for Blazor and ASP.NET Core apps. 7 NuGet packages published | .NET, Blazor WASM, Vector Search, OpenAI |
+| [BlazorMemory](https://github.com/aftabkh4n/BlazorMemory) | AI memory layer for .NET - LLM-powered fact extraction, vector similarity search, and persistent memory for Blazor and ASP.NET Core apps. 7 NuGet packages published | .NET, Blazor WASM, Vector Search, OpenAI |
 
 ---
 
