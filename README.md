@@ -97,11 +97,11 @@ Currently building MCP servers for AI-assisted platform engineering, GenAI-power
 ## Latest Dev.to articles
 
 <!-- BLOG-POST-LIST:START -->
+- [BlazorMemory 1.0 is out. Ten months, 14 packages, and what I got wrong along the way.](https://dev.to/aftabkh4n/blazormemory-10-is-out-ten-months-14-packages-and-what-i-got-wrong-along-the-way-1548)
 - [BlazorMemory v0.8.0: Semantic Kernel adapter, Ollama embeddings, and memory decay](https://dev.to/aftabkh4n/blazormemory-v080-semantic-kernel-adapter-ollama-embeddings-and-memory-decay-oom)
 - [Turning TravelAI.Core Into a Real Production System](https://dev.to/aftabkh4n/turning-travelaicore-into-a-real-production-system-3npm)
 - [Reducing boilerplate in AI memory with a chat wrapper for .NET](https://dev.to/aftabkh4n/reducing-boilerplate-in-ai-memory-with-a-chat-wrapper-for-net-59lc)
 - [I made my .NET travel AI library work with OpenAI, Anthropic, Ollama, and Azure. Not just one.](https://dev.to/aftabkh4n/i-made-my-net-travel-ai-library-work-with-openai-anthropic-ollama-and-azure-not-just-one-16d0)
-- [I added pgvector support to my .NET AI memory library](https://dev.to/aftabkh4n/i-added-pgvector-support-to-my-net-ai-memory-library-53i)
 <!-- BLOG-POST-LIST:END -->
 
 <div align="center">
