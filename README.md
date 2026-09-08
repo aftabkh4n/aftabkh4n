@@ -97,11 +97,11 @@ Currently building MCP servers for AI-assisted platform engineering, GenAI-power
 ## Latest Dev.to articles
 
 <!-- BLOG-POST-LIST:START -->
+- [How I Built 50 Developer Tools That Run Entirely in the Browser](https://dev.to/aftabkh4n/how-i-built-50-developer-tools-that-run-entirely-in-the-browser-3a6a)
 - [My tests were describing the code, not checking it](https://dev.to/aftabkh4n/my-tests-were-describing-the-code-not-checking-it-3m2p)
 - [BlazorMemory 1.0 is out. Ten months, 14 packages, and what I got wrong along the way.](https://dev.to/aftabkh4n/blazormemory-10-is-out-ten-months-14-packages-and-what-i-got-wrong-along-the-way-1548)
 - [BlazorMemory v0.8.0: Semantic Kernel adapter, Ollama embeddings, and memory decay](https://dev.to/aftabkh4n/blazormemory-v080-semantic-kernel-adapter-ollama-embeddings-and-memory-decay-oom)
 - [Turning TravelAI.Core Into a Real Production System](https://dev.to/aftabkh4n/turning-travelaicore-into-a-real-production-system-3npm)
-- [Reducing boilerplate in AI memory with a chat wrapper for .NET](https://dev.to/aftabkh4n/reducing-boilerplate-in-ai-memory-with-a-chat-wrapper-for-net-59lc)
 <!-- BLOG-POST-LIST:END -->
 
 <div align="center">
