@@ -1,16 +1,8 @@
 <div align="center">
 
-```
- ┌─────────────────────────────────────────────────────────────┐
- │                                                             │
- │   A F T A B   B A S H I R                                   │
- │   senior .net engineer · backend · platform · kubernetes    │
- │                                                             │
- │   $ whoami                                                  │
- │   > 9 years shipping systems that other people depend on    │
- │                                                             │
- └─────────────────────────────────────────────────────────────┘
-```
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=3498DB&center=true&vCenter=true&width=700&lines=%24+whoami;Senior+.NET+Engineer+%C2%B7+9+years;Backend+%C2%B7+Platform+%C2%B7+Kubernetes;I+build+systems+people+depend+on" alt="typing" />
+
+<br/>
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-_-0A0A0A?style=flat-square&logo=linkedin&logoColor=0077B5&labelColor=0A0A0A)](https://linkedin.com/in/aftabkh4n)
 [![Dev.to](https://img.shields.io/badge/dev.to-_-0A0A0A?style=flat-square&logo=devdotto&logoColor=white&labelColor=0A0A0A)](https://dev.to/aftabkh4n)
@@ -23,6 +15,35 @@
 I build systems from the API down to the infrastructure. Kubernetes, Terraform, event driven pipelines, MCP servers, and CI/CD tooling that does something useful rather than something impressive.
 
 Most of what I build ends up here as open source. Currently focused on MCP servers for AI assisted platform engineering, self healing Kubernetes automation, and event driven architecture with Kafka and Azure Service Bus.
+
+---
+
+## One API call, a whole service
+
+This is what my [IDP Platform](https://github.com/aftabkh4n/idp-platform) does when a developer asks for a new service. Everything below the dotted line happens without anyone touching a console.
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#c9d1d9','primaryBorderColor':'#30363d','lineColor':'#3498db','secondaryColor':'#161b22','tertiaryColor':'#161b22','fontFamily':'JetBrains Mono, monospace'}}}%%
+flowchart LR
+    DEV["👤 developer<br/>POST /services"] --> API["⚙️ IDP API<br/>.NET 9"]
+
+    API --> GH["📦 GitHub<br/>repo + branch rules"]
+    API --> DOCK["🐳 Dockerfile<br/>generated per stack"]
+    API --> K8S["☸️ Kubernetes<br/>ns + deploy + svc"]
+    API --> CI["🔁 CI pipeline<br/>GitHub Actions"]
+
+    CI --> AI["🤖 AI review<br/>GPT-4o-mini on every PR"]
+    K8S --> OBS["📊 Prometheus<br/>+ Grafana"]
+
+    API -.live status.-> DEV
+
+    style DEV fill:#0d1117,stroke:#3498db,stroke-width:2px
+    style API fill:#132030,stroke:#3498db,stroke-width:2px
+    style AI fill:#132030,stroke:#8e44ad,stroke-width:2px
+    style OBS fill:#132030,stroke:#e67e22,stroke-width:2px
+```
+
+Provisioning that used to take most of a day now takes one request and a few minutes.
 
 ---
 
