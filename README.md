@@ -160,7 +160,7 @@ o11y        OpenTelemetry  ·  Serilog  ·  Prometheus  ·  Grafana
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=aftabkh4n&bg_color=0A0A0A&color=c9d1d9&line=3498db&point=ffffff&area=true&area_color=3498db&hide_border=true&custom_title=Contributions" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=aftabkh4n&theme=github-compact&hide_border=true" width="100%" />
 
 <br/>
 
@@ -169,6 +169,6 @@ o11y        OpenTelemetry  ·  Serilog  ·  Prometheus  ·  Grafana
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=aftabkh4n&theme=dark&background=0A0A0A&border=0A0A0A&stroke=30363d&ring=3498db&fire=e67e22&currStreakLabel=c9d1d9" height="150" />
+<img src="https://streak-stats.demolab.com?user=aftabkh4n&theme=dark&background=0A0A0A&border=30363d&ring=3498db&fire=e67e22&currStreakLabel=c9d1d9&hide_border=true" height="150" />
 
 </div>
