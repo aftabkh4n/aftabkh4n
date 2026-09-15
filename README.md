@@ -18,22 +18,76 @@ Most of what I build ends up here as open source. Currently focused on MCP serve
 
 ---
 
-## One API call, a whole service
+<div align="center">
 
-This is what my [IDP Platform](https://github.com/aftabkh4n/idp-platform) does when a developer asks for a new service. Everything below the dotted line happens without anyone touching a console.
+### ▸ BlazorMemory
+
+**Give your .NET app a memory.**
+
+[![NuGet](https://img.shields.io/nuget/v/BlazorMemory?style=for-the-badge&logo=nuget&logoColor=white&label=version&labelColor=0A0A0A&color=3498db)](https://www.nuget.org/packages/BlazorMemory)
+[![Downloads](https://img.shields.io/nuget/dt/BlazorMemory?style=for-the-badge&label=downloads&labelColor=0A0A0A&color=2ecc71)](https://www.nuget.org/packages/BlazorMemory)
+[![Stars](https://img.shields.io/github/stars/aftabkh4n/BlazorMemory?style=for-the-badge&label=stars&labelColor=0A0A0A&color=f1c40f)](https://github.com/aftabkh4n/BlazorMemory)
+
+</div>
+
+Most LLM apps forget everything the moment the session ends. BlazorMemory sits underneath your Blazor or ASP.NET Core app, pulls durable facts out of conversations, embeds them, and hands the relevant ones back the next time they matter. Ten months of work, shipped as a suite of NuGet packages.
+
+```bash
+dotnet add package BlazorMemory
+```
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#c9d1d9','primaryBorderColor':'#30363d','lineColor':'#3498db','secondaryColor':'#161b22','tertiaryColor':'#161b22','fontFamily':'JetBrains Mono, monospace'}}}%%
 flowchart LR
-    DEV["👤 developer<br/>POST /services"] --> API["⚙️ IDP API<br/>.NET 9"]
+    C["conversation"] --> X["fact extraction<br/>LLM"]
+    X --> E["embeddings"]
+    E --> V[("vector store")]
+    V --> R["semantic recall"]
+    R --> A["your app,<br/>with context"]
+    A -.next session.-> C
 
-    API --> GH["📦 GitHub<br/>repo + branch rules"]
-    API --> DOCK["🐳 Dockerfile<br/>generated per stack"]
-    API --> K8S["☸️ Kubernetes<br/>ns + deploy + svc"]
-    API --> CI["🔁 CI pipeline<br/>GitHub Actions"]
+    style C fill:#0d1117,stroke:#30363d
+    style X fill:#132030,stroke:#8e44ad,stroke-width:2px
+    style V fill:#132030,stroke:#2ecc71,stroke-width:2px
+    style A fill:#132030,stroke:#3498db,stroke-width:2px
+```
 
-    CI --> AI["🤖 AI review<br/>GPT-4o-mini on every PR"]
-    K8S --> OBS["📊 Prometheus<br/>+ Grafana"]
+<details>
+<summary><b>Other published packages</b></summary>
+
+<br/>
+
+| Package | Downloads |
+| --- | --- |
+| `IdpPlatform.GitHub` | ![](https://img.shields.io/nuget/dt/IdpPlatform.GitHub?style=flat-square&label=&color=0A0A0A) |
+| `TravelAI.Core` | ![](https://img.shields.io/nuget/dt/TravelAI.Core?style=flat-square&label=&color=0A0A0A) |
+
+<!-- NUGET-STATS:START -->
+`total packages: —` · `total downloads: —`
+<!-- NUGET-STATS:END -->
+
+Full list: [nuget.org/profiles/aftabkh4n](https://www.nuget.org/profiles/aftabkh4n)
+
+</details>
+
+---
+
+## One API call, a whole service
+
+This is what my [IDP Platform](https://github.com/aftabkh4n/idp-platform) does when a developer asks for a new service. Everything after the request happens without anyone touching a console.
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#c9d1d9','primaryBorderColor':'#30363d','lineColor':'#3498db','secondaryColor':'#161b22','tertiaryColor':'#161b22','fontFamily':'JetBrains Mono, monospace'}}}%%
+flowchart LR
+    DEV["developer<br/>POST /services"] --> API["IDP API<br/>.NET 9"]
+
+    API --> GH["GitHub<br/>repo + branch rules"]
+    API --> DOCK["Dockerfile<br/>per stack"]
+    API --> K8S["Kubernetes<br/>ns + deploy + svc"]
+    API --> CI["CI pipeline<br/>GitHub Actions"]
+
+    CI --> AI["AI review<br/>GPT-4o-mini, every PR"]
+    K8S --> OBS["Prometheus<br/>+ Grafana"]
 
     API -.live status.-> DEV
 
@@ -44,22 +98,6 @@ flowchart LR
 ```
 
 Provisioning that used to take most of a day now takes one request and a few minutes.
-
----
-
-## Published packages
-
-<!-- NUGET-STATS:START -->
-`total packages: —` · `total downloads: —`
-<!-- NUGET-STATS:END -->
-
-| Package | Downloads |
-| --- | --- |
-| `BlazorMemory` | ![](https://img.shields.io/nuget/dt/BlazorMemory?style=flat-square&label=&color=0A0A0A) |
-| `IdpPlatform.GitHub` | ![](https://img.shields.io/nuget/dt/IdpPlatform.GitHub?style=flat-square&label=&color=0A0A0A) |
-| `TravelAI.Core` | ![](https://img.shields.io/nuget/dt/TravelAI.Core?style=flat-square&label=&color=0A0A0A) |
-
-Full list: [nuget.org/profiles/aftabkh4n](https://www.nuget.org/profiles/aftabkh4n)
 
 ---
 
@@ -118,9 +156,19 @@ o11y        OpenTelemetry  ·  Serilog  ·  Prometheus  ·  Grafana
 
 ---
 
+## Activity
+
 <div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=aftabkh4n&bg_color=0A0A0A&color=c9d1d9&line=3498db&point=ffffff&area=true&area_color=3498db&hide_border=true&custom_title=Contributions" width="100%" />
+
+<br/>
 
 <img src="https://github-readme-stats.vercel.app/api?username=aftabkh4n&show_icons=true&hide_border=true&hide_title=true&theme=dark&bg_color=0A0A0A&icon_color=3498db&text_color=c9d1d9&count_private=true" height="140" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftabkh4n&layout=compact&hide_border=true&hide_title=true&theme=dark&bg_color=0A0A0A&text_color=c9d1d9&langs_count=6" height="140" />
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=aftabkh4n&theme=dark&background=0A0A0A&border=0A0A0A&stroke=30363d&ring=3498db&fire=e67e22&currStreakLabel=c9d1d9" height="150" />
 
 </div>
