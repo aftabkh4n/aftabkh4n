@@ -156,19 +156,10 @@ o11y        OpenTelemetry  ·  Serilog  ·  Prometheus  ·  Grafana
 
 ---
 
-## Activity
+---
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=aftabkh4n&theme=github-compact&hide_border=true" width="100%" />
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=aftabkh4n&show_icons=true&hide_border=true&hide_title=true&theme=dark&bg_color=0A0A0A&icon_color=3498db&text_color=c9d1d9&count_private=true" height="140" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftabkh4n&layout=compact&hide_border=true&hide_title=true&theme=dark&bg_color=0A0A0A&text_color=c9d1d9&langs_count=6" height="140" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=aftabkh4n&theme=dark&background=0A0A0A&border=30363d&ring=3498db&fire=e67e22&currStreakLabel=c9d1d9&hide_border=true" height="150" />
+<sub>Based in Doha · building in public · <a href="https://github.com/aftabkh4n?tab=repositories">all repositories →</a></sub>
 
 </div>
