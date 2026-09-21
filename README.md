@@ -111,6 +111,7 @@ Provisioning that used to take most of a day now takes one request and a few min
 | [**IDP Platform**](https://github.com/aftabkh4n/idp-platform) | One API call provisions a repo, Dockerfile, K8s deployment, and CI pipeline | `.NET 9` `K8s` `SignalR` `Postgres` |
 | [**Terraform IDP**](https://github.com/aftabkh4n/terraform-idp) | Postgres, Kubernetes, Prometheus, Grafana, and AWS EKS from one `terraform apply` | `Terraform` `EKS` `Helm` |
 | [**Travel Booking Platform**](https://github.com/aftabkh4n/travel-booking-platform) | Every request goes through a YARP gateway for auth and rate limiting, with an Angular dashboard on top | `.NET 10` `YARP` `Angular` `Mongo` |
+| [**RebelDesk**](https://github.com/aftabkh4n/RebelDesk) | Self-hosted remote desktop over WebRTC. Windows agent, browser viewer, attended sessions with explicit host approval. Pre-alpha | `.NET 10` `SIPSorcery` `React` `coturn` |
 
 **Distributed systems**
 
