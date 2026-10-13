@@ -146,6 +146,22 @@ Full list: [nuget.org/profiles/aftabkh4n](https://www.nuget.org/profiles/aftabkh
 ---
 
 <!-- ============================================================ -->
+<!--                  OPEN SOURCE CONTRIBUTIONS                   -->
+<!-- ============================================================ -->
+## 🌍 Open Source Contributions
+
+> Pull requests I've authored into community projects.
+
+| 🔗 Repository | ⭐ | 🛠️ Contribution |
+|:---|:--:|:---|
+| **[morluto/awesome-reverse-engineering](https://github.com/morluto/awesome-reverse-engineering)** | ![](https://img.shields.io/github/stars/morluto/awesome-reverse-engineering?style=flat-square&label=&color=0A0A0A) | **[PR #8](https://github.com/morluto/awesome-reverse-engineering/pull/8)** *(merged)* — resolved [issue #6](https://github.com/morluto/awesome-reverse-engineering/issues/6): updates to existing entries, link check green on merge. |
+| **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** | ![](https://img.shields.io/github/stars/NousResearch/hermes-agent?style=flat-square&label=&color=0A0A0A) | **[PR #136473](https://github.com/NousResearch/hermes-agent/pull/136473)** *(open)* — `fix(desktop)`: model names truncated when pricing was shown; menu width now adapts, with tests covering both states. |
+
+<sub>🔍 [All PRs authored by @aftabkh4n](https://github.com/search?q=author%3Aaftabkh4n+is%3Apr&type=pullrequests)</sub>
+
+---
+
+<!-- ============================================================ -->
 <!--                     ARCHITECTURE SHOWCASE                    -->
 <!-- ============================================================ -->
 ## 🏗️ One API Call, a Whole Service
