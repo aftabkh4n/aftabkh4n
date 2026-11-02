@@ -1,0 +1,28 @@
+name: Update NuGet stats
+on:
+  schedule:
+    - cron: '30 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Write package count and downloads into the README
+        run: python3 .github/scripts/nuget_stats.py
+
+      - name: Commit if the numbers changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "NuGet stats unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update NuGet stats" README.md
+          git push
