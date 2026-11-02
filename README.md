@@ -136,7 +136,7 @@ flowchart LR
 | `TravelAI.Core` | ![](https://img.shields.io/nuget/dt/TravelAI.Core?style=flat-square&label=&color=0A0A0A) |
 
 <!-- NUGET-STATS:START -->
-`total packages: —` · `total downloads: —`
+`total packages: 21` · `total downloads: 24,568`
 <!-- NUGET-STATS:END -->
 
 Full list: [nuget.org/profiles/aftabkh4n](https://www.nuget.org/profiles/aftabkh4n)
